@@ -9,5 +9,10 @@ export default defineNuxtConfig({
     '~/css/reset.scss',
     '~/css/global.scss',
   ],
+  'components': {
+    dirs: [
+      { path: './components', pathPrefix: false },
+    ],
+  },
   devtools: { enabled: true }
 })

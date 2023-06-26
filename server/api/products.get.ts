@@ -1,3 +1,7 @@
-import { products } from './products.json'
+import { PrismaClient } from '@prisma/client'
 
-export default defineEventHandler(() => products)
+const prisma = new PrismaClient()
+
+export default defineEventHandler(() => {
+  return prisma.product.findMany()
+})

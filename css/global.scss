@@ -25,10 +25,10 @@ a {
   @apply hover:text-blue-600 underline;
 }
 
-ul li {
+ul > li {
   @apply list-disc list-inside;
 }
 
-ol li {
+ol > li {
   @apply list-decimal list-inside;
 }
