@@ -11,9 +11,9 @@
 <br />
 
 1. Go through the codebase and try to understand its structure and usage.
-2. Add a new page to the application (`/products`) that would display images, their titles, descriptions, prices and images.
+2. Add a new page to the application (`/products`) that would display images, their titles, descriptions, prices.
   Focus primarily on the layout, no need to worry about colors/backgrounds/etc. (You choose the design)
-3. Add a new page to the application (you choose the path) that would display a form which is used to add a new product. The images should have the following properties:
+3. Add a new page to the application (you choose the path) that would display a form which is used to add a new product. The products should have the following properties:
     * a title
     * a description
     * an image (You can omit this and return to it later as **Bonus**)
