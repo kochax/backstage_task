@@ -4,7 +4,7 @@ type IProps = {
 }
 
 const props = defineProps<IProps>()
-const emits= defineEmits<{
+const emits = defineEmits<{
   (e: 'update:modelValue', value: FileList | null): void
 }>()
 
